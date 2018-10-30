@@ -41,7 +41,6 @@ Writing
 
     # create chapter
     c1 = epub.EpubHtml(title='Intro', file_name='chap_01.xhtml', lang='hr')
-    c1.content=u'<h1>Intro heading</h1><p>Žaba je skočila u baru.</p>'
 
     # add chapter
     book.add_item(c1)
